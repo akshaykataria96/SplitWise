@@ -8,22 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		47CF6097229A8B9A0062F945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF6096229A8B9A0062F945 /* AppDelegate.swift */; };
-		47CF6099229A8B9A0062F945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF6098229A8B9A0062F945 /* ViewController.swift */; };
 		47CF609C229A8B9A0062F945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CF609A229A8B9A0062F945 /* Main.storyboard */; };
 		47CF609F229A8B9A0062F945 /* GaanaChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47CF609D229A8B9A0062F945 /* GaanaChallenge.xcdatamodeld */; };
 		47CF60A1229A8B9C0062F945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CF60A0229A8B9C0062F945 /* Assets.xcassets */; };
 		47CF60A4229A8B9C0062F945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CF60A2229A8B9C0062F945 /* LaunchScreen.storyboard */; };
+		47CF60B0229A8C4C0062F945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60AF229A8C4C0062F945 /* ViewController.swift */; };
+		47CF60B5229A8CD00062F945 /* AddNewTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60B3229A8CD00062F945 /* AddNewTransactionViewController.swift */; };
+		47CF60B6229A8CD00062F945 /* AddNewTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47CF60B4229A8CD00062F945 /* AddNewTransactionViewController.xib */; };
+		47CF60B9229A8D770062F945 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60B7229A8D770062F945 /* TransactionViewController.swift */; };
+		47CF60BA229A8D770062F945 /* TransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47CF60B8229A8D770062F945 /* TransactionViewController.xib */; };
+		47CF60BE229A8DBF0062F945 /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60BC229A8DBF0062F945 /* tableViewCell.swift */; };
+		47CF60BF229A8DBF0062F945 /* tableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47CF60BD229A8DBF0062F945 /* tableViewCell.xib */; };
+		47CF60C2229A8DFC0062F945 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60C0229A8DFC0062F945 /* TransactionTableViewCell.swift */; };
+		47CF60C3229A8DFC0062F945 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47CF60C1229A8DFC0062F945 /* TransactionTableViewCell.xib */; };
+		47CF60C5229A8E420062F945 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60C4229A8E420062F945 /* User.swift */; };
+		47CF60C7229A8E530062F945 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60C6229A8E530062F945 /* Transaction.swift */; };
+		47CF60C9229A8E6C0062F945 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60C8229A8E6C0062F945 /* Extension.swift */; };
+		47CF60CB229A8E7E0062F945 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60CA229A8E7E0062F945 /* Helper.swift */; };
+		47CF60CD229A8E8D0062F945 /* Copying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60CC229A8E8D0062F945 /* Copying.swift */; };
+		47CF60D1229AA2640062F945 /* AllTxnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF60CF229AA2640062F945 /* AllTxnCell.swift */; };
+		47CF60D2229AA2640062F945 /* AllTxnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47CF60D0229AA2640062F945 /* AllTxnCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47CF6093229A8B9A0062F945 /* GaanaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaanaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CF6096229A8B9A0062F945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47CF6098229A8B9A0062F945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47CF609B229A8B9A0062F945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47CF609E229A8B9A0062F945 /* GaanaChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GaanaChallenge.xcdatamodel; sourceTree = "<group>"; };
 		47CF60A0229A8B9C0062F945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47CF60A3229A8B9C0062F945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47CF60A5229A8B9C0062F945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CF60AF229A8C4C0062F945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47CF60B3229A8CD00062F945 /* AddNewTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTransactionViewController.swift; sourceTree = "<group>"; };
+		47CF60B4229A8CD00062F945 /* AddNewTransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewTransactionViewController.xib; sourceTree = "<group>"; };
+		47CF60B7229A8D770062F945 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		47CF60B8229A8D770062F945 /* TransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionViewController.xib; sourceTree = "<group>"; };
+		47CF60BC229A8DBF0062F945 /* tableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
+		47CF60BD229A8DBF0062F945 /* tableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableViewCell.xib; sourceTree = "<group>"; };
+		47CF60C0229A8DFC0062F945 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		47CF60C1229A8DFC0062F945 /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		47CF60C4229A8E420062F945 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		47CF60C6229A8E530062F945 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		47CF60C8229A8E6C0062F945 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		47CF60CA229A8E7E0062F945 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		47CF60CC229A8E8D0062F945 /* Copying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copying.swift; sourceTree = "<group>"; };
+		47CF60CF229AA2640062F945 /* AllTxnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTxnCell.swift; sourceTree = "<group>"; };
+		47CF60D0229AA2640062F945 /* AllTxnCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllTxnCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,70 @@
 		47CF6095229A8B9A0062F945 /* GaanaChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				47CF60AE229A8BED0062F945 /* View */,
+				47CF60AD229A8BE60062F945 /* Controller */,
+				47CF60AC229A8BD80062F945 /* Model */,
 				47CF6096229A8B9A0062F945 /* AppDelegate.swift */,
-				47CF6098229A8B9A0062F945 /* ViewController.swift */,
-				47CF609A229A8B9A0062F945 /* Main.storyboard */,
+				47CF60C8229A8E6C0062F945 /* Extension.swift */,
+				47CF60CA229A8E7E0062F945 /* Helper.swift */,
+				47CF60CC229A8E8D0062F945 /* Copying.swift */,
 				47CF60A0229A8B9C0062F945 /* Assets.xcassets */,
 				47CF60A2229A8B9C0062F945 /* LaunchScreen.storyboard */,
 				47CF60A5229A8B9C0062F945 /* Info.plist */,
 				47CF609D229A8B9A0062F945 /* GaanaChallenge.xcdatamodeld */,
 			);
 			path = GaanaChallenge;
+			sourceTree = "<group>";
+		};
+		47CF60AC229A8BD80062F945 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47CF60C4229A8E420062F945 /* User.swift */,
+				47CF60C6229A8E530062F945 /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47CF60AD229A8BE60062F945 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				47CF60AF229A8C4C0062F945 /* ViewController.swift */,
+				47CF60B3229A8CD00062F945 /* AddNewTransactionViewController.swift */,
+				47CF60B7229A8D770062F945 /* TransactionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		47CF60AE229A8BED0062F945 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47CF609A229A8B9A0062F945 /* Main.storyboard */,
+				47CF60CE229A8E9D0062F945 /* Xib */,
+				47CF60BB229A8D950062F945 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47CF60BB229A8D950062F945 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				47CF60BC229A8DBF0062F945 /* tableViewCell.swift */,
+				47CF60BD229A8DBF0062F945 /* tableViewCell.xib */,
+				47CF60C0229A8DFC0062F945 /* TransactionTableViewCell.swift */,
+				47CF60C1229A8DFC0062F945 /* TransactionTableViewCell.xib */,
+				47CF60CF229AA2640062F945 /* AllTxnCell.swift */,
+				47CF60D0229AA2640062F945 /* AllTxnCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		47CF60CE229A8E9D0062F945 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				47CF60B4229A8CD00062F945 /* AddNewTransactionViewController.xib */,
+				47CF60B8229A8D770062F945 /* TransactionViewController.xib */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +210,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47CF60B6229A8CD00062F945 /* AddNewTransactionViewController.xib in Resources */,
 				47CF60A4229A8B9C0062F945 /* LaunchScreen.storyboard in Resources */,
+				47CF60D2229AA2640062F945 /* AllTxnCell.xib in Resources */,
 				47CF60A1229A8B9C0062F945 /* Assets.xcassets in Resources */,
+				47CF60BA229A8D770062F945 /* TransactionViewController.xib in Resources */,
+				47CF60C3229A8DFC0062F945 /* TransactionTableViewCell.xib in Resources */,
 				47CF609C229A8B9A0062F945 /* Main.storyboard in Resources */,
+				47CF60BF229A8DBF0062F945 /* tableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +228,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47CF6099229A8B9A0062F945 /* ViewController.swift in Sources */,
+				47CF60CB229A8E7E0062F945 /* Helper.swift in Sources */,
+				47CF60CD229A8E8D0062F945 /* Copying.swift in Sources */,
+				47CF60B5229A8CD00062F945 /* AddNewTransactionViewController.swift in Sources */,
+				47CF60B9229A8D770062F945 /* TransactionViewController.swift in Sources */,
+				47CF60C2229A8DFC0062F945 /* TransactionTableViewCell.swift in Sources */,
 				47CF609F229A8B9A0062F945 /* GaanaChallenge.xcdatamodeld in Sources */,
+				47CF60D1229AA2640062F945 /* AllTxnCell.swift in Sources */,
+				47CF60C5229A8E420062F945 /* User.swift in Sources */,
+				47CF60C9229A8E6C0062F945 /* Extension.swift in Sources */,
+				47CF60B0229A8C4C0062F945 /* ViewController.swift in Sources */,
+				47CF60BE229A8DBF0062F945 /* tableViewCell.swift in Sources */,
 				47CF6097229A8B9A0062F945 /* AppDelegate.swift in Sources */,
+				47CF60C7229A8E530062F945 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
