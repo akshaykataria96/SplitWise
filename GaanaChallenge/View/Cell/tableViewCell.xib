@@ -15,24 +15,24 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="79" id="XqQ-4s-Raf" customClass="tableViewCell" customModule="GaanaChallenge" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="466" height="79"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="XqQ-4s-Raf" id="ots-6P-54L">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XqQ-4s-Raf" id="ots-6P-54L">
                 <rect key="frame" x="0.0" y="0.0" width="466" height="78.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RAn-1L-ZJ4">
-                        <rect key="frame" x="0.0" y="0.0" width="466" height="80.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="466" height="78.5"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aUd-Sx-wMf">
-                                <rect key="frame" x="4" y="20.5" width="458" height="40"/>
+                                <rect key="frame" x="4" y="20" width="458" height="38.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ut9-Z2-bJk">
-                                        <rect key="frame" x="0.0" y="0.0" width="224" height="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="224" height="38.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="prH-ag-d9F">
-                                        <rect key="frame" x="234" y="0.0" width="224" height="40"/>
+                                        <rect key="frame" x="234" y="0.0" width="224" height="38.5"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -49,7 +49,6 @@
                             <constraint firstAttribute="bottom" secondItem="aUd-Sx-wMf" secondAttribute="bottom" constant="20" id="GoX-eV-ef3"/>
                             <constraint firstItem="aUd-Sx-wMf" firstAttribute="leading" secondItem="RAn-1L-ZJ4" secondAttribute="leading" constant="4" id="J5U-aP-YZu"/>
                             <constraint firstItem="aUd-Sx-wMf" firstAttribute="top" secondItem="RAn-1L-ZJ4" secondAttribute="top" constant="20" id="SAZ-Kc-jFO"/>
-                            <constraint firstAttribute="height" constant="80" id="vrl-QS-9V6"/>
                         </constraints>
                     </view>
                 </subviews>

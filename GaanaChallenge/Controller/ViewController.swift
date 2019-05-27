@@ -91,13 +91,17 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
         return 1
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataArray.count
+        return dataArray.count - 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         let cell = self.tablewView.dequeueReusableCell(withIdentifier: "AllTxnCell") as! AllTxnCell
-        cell.setUp(userObj: dataArray[indexPath.row])
+        cell.setUp(userObj: dataArray[indexPath.row + 1])
         return cell
     }
 }
